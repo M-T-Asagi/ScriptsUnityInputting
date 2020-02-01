@@ -6,7 +6,7 @@ namespace AsagiHandyScripts
     {
         public static RaycastHit? GetRaycast(Vector3 touchPos, LayerMask target)
         {
-            return RaycastTouchPosition(Camera.main, touchPos, target);
+            return GetRaycast(Camera.main, touchPos, target);
         }
 
         public static RaycastHit? GetRaycast(Camera camera, Vector3 touchPos, LayerMask target)
